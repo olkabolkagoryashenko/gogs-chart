@@ -41,7 +41,7 @@ spec:
               containerPort: 3000
               protocol: TCP
           env:
-            {{- range .Values.env }}
+            {{- range .Values.service.env }}
             - name: {{ .name }}
               value: {{ .value | quote }}
             {{- end }}
