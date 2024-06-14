@@ -122,12 +122,13 @@ affinity: {}
 
 mysql:
   auth:
-    rootPassword: "password"
-    user: "gogs"
+    username: "gogs"
     password: "gogs"
+    createDatabase: true
     database: "gogs"
   primary:
     service:
+      type: NodePort
       port: 3306
       persistence:
         enabled: true
