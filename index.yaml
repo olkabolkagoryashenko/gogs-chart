@@ -3,16 +3,16 @@ entries:
   gogsapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-14T10:24:35.307271+03:00"
+    created: "2024-06-14T13:12:42.630588+03:00"
     dependencies:
     - name: mysql
       repository: '@bitnami'
       version: 11.1.2
     description: A Helm chart for Kubernetes
-    digest: 6c7a0c2a46dd7255c3f031e1ca2ae8840b49d6ebbff364f0407cab30ee5de11a
+    digest: 613ffca49563ace3c06b5f373b7f24138aaafda209296a637b9b8b7d85a75778
     name: gogsapp
     type: application
     urls:
     - gogsapp-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-14T10:24:35.303807+03:00"
+generated: "2024-06-14T13:12:42.627315+03:00"

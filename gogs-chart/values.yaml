@@ -46,7 +46,16 @@ service:
   port: 80
   targetPort: 3000
   sessionAffinity: ClientIP
-  
+  env:
+    - name: MYSQL_DATABASE
+      value: gogs
+    - name: MYSQL_ROOT_PASSWORD
+      value: password
+    - name: MYSQL_USER
+      value: gogs
+    - name: MYSQL_PASSWORD
+      value: gogs
+
 
 ingress:
   enabled: false
